@@ -5,7 +5,10 @@
 
 ### NOTE: This is a fork of https://github.com/zombiezen/postgrestest to use https://github.com/jackc/pgx
 
-The readme below has not been updated to reflect these code changes. PRs welcome!
+The readme below has not been updated to reflect recent code changes. PRs welcome!
+
+TODO(steve): I would further like to make the changes in https://github.com/gokrazy/gus/commit/b97c652fd03754ba817bd3c13f18ea6e2e154ef4#diff-7829468e86c1cc5d5133195b5cb48e1ff6c75e3e9203777f6b2e379d9e4882b3
+from https://michael.stapelberg.ch/posts/2024-11-19-testing-with-go-and-postgresql-ephemeral-dbs/
 
 Package `pgxtest` provides a test harness that starts an ephemeral
 [PostgreSQL][] server. It is tested on macOS, Linux, and Windows. It can cut
