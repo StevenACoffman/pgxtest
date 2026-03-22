@@ -16,11 +16,11 @@
 
 module github.com/StevenACoffman/pgxtest
 
-go 1.24.0
+go 1.25.0
 
 toolchain go1.25.5
 
-require github.com/jackc/pgx/v5 v5.8.0
+require github.com/jackc/pgx/v5 v5.9.1
 
 require (
 	github.com/jackc/pgpassfile v1.0.0 // indirect
