@@ -18,7 +18,7 @@ module github.com/StevenACoffman/pgxtest
 
 go 1.25.0
 
-toolchain go1.26.6
+toolchain go1.27.0
 
 require github.com/jackc/pgx/v5 v5.10.0
 
